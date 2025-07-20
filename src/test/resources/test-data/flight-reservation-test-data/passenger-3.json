@@ -1,0 +1,11 @@
+{
+  "firstName": "Mero",
+  "lastName": "E",
+  "email": "Oel",
+  "password": "Oel$$",
+  "street": "123 mora street",
+  "city": "Zagazig",
+  "zip": "33255",
+  "passengersCount": "3",
+  "expectedCost": "$1753 USD"
+}

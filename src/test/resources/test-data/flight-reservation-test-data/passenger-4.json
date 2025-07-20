@@ -1,0 +1,11 @@
+{
+  "firstName": "Mora",
+  "lastName": "E",
+  "email": "Oel",
+  "password": "Oel$$",
+  "street": "123 mora street",
+  "city": "Giza",
+  "zip": "33255",
+  "passengersCount": "4",
+  "expectedCost": "$2338 USD"
+}

@@ -1,0 +1,11 @@
+{
+  "firstName": "MeGo",
+  "lastName": "E",
+  "email": "Oel",
+  "password": "Oel$$",
+  "street": "123 mora street",
+  "city": "Alex",
+  "zip": "33255",
+  "passengersCount": "2",
+  "expectedCost": "$1169 USD"
+}

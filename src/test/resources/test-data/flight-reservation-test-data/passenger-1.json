@@ -1,0 +1,11 @@
+{
+  "firstName": "Omar",
+  "lastName": "E",
+  "email": "Oel",
+  "password": "Oel$$",
+  "street": "123 mora street",
+  "city": "Cairo",
+  "zip": "33255",
+  "passengersCount": "1",
+  "expectedCost": "$584 USD"
+}

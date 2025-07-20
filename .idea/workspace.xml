@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aeec3bd1-81b0-46c1-98cf-3571b6e5efd3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/pages/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/pages/flightreservation/FlightConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/pages/flightreservation/FlightSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/pages/flightreservation/FlightSelectionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/pages/flightreservation/RegisterationConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/pages/flightreservation/RegisterationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/pages/vendorportal/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/pages/vendorportal/VendorLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/utils/Actions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/utils/Checks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/utils/Waits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/utils/propertiesloader/ConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ElbablyAcademy/tests/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ElbablyAcademy/tests/flightreservation/FlightReservationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ElbablyAcademy/tests/flightreservation/testDataModel/FlightReservationTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ElbablyAcademy/tests/vendorportal/VendorPortalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ElbablyAcademy/tests/vendorportal/testDataModel/VendorPortalTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ElbablyAcademy/util/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ElbablyAcademy/util/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/flight-reservation-test-data/passenger-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/flight-reservation-test-data/passenger-2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/flight-reservation-test-data/passenger-3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/flight-reservation-test-data/passenger-4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/vendor-portal-test-data/john.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/vendor-portal-test-data/mike.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-data/vendor-portal-test-data/sam.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-suites/flight-reservation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test-suites/vendor-portal.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3092cT9OjDU1smuHW21T1oggr1Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.AutomationTestNG [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.AutomationTestNG [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/omar_/IdeaProjects/AutomationTestNG/AutomationTestNG/src/test/resources/test-suites/flight-reservation.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/omar_/IdeaProjects/AutomationTestNG/AutomationTestNG/src/test/resources/test-suites/vendor-portal.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FlightReservationTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FlightReservationTest.userRegisterationPage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VendorPortalTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/omar_/IdeaProjects/AutomationTestNG/AutomationTestNG/src/test/resources/test-data/flight-reservation-test-data&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omar_\IdeaProjects\AutomationTestNG\AutomationTestNG\src\test\resources\test-data\flight-reservation-test-data" />
+      <recent name="C:\Users\omar_\IdeaProjects\AutomationTestNG\AutomationTestNG\src\test\resources\test-suites" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/omar_/IdeaProjects/AutomationTestNG/AutomationTestNG/src/test/resources/test-suites/vendor-portal.xml">
+    <configuration name="C:/Users/omar_/IdeaProjects/AutomationTestNG/AutomationTestNG/src/test/resources/test-suites/flight-reservation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/test-suites/flight-reservation.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/omar_/IdeaProjects/AutomationTestNG/AutomationTestNG/src/test/resources/test-suites/vendor-portal.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/test-suites/vendor-portal.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightReservationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ElbablyAcademy.tests.flightreservation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ElbablyAcademy.tests.flightreservation" />
+      <option name="MAIN_CLASS_NAME" value="com.ElbablyAcademy.tests.flightreservation.FlightReservationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightReservationTest.userRegisterationPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ElbablyAcademy.tests.flightreservation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ElbablyAcademy.tests.flightreservation" />
+      <option name="MAIN_CLASS_NAME" value="com.ElbablyAcademy.tests.flightreservation.FlightReservationTest" />
+      <option name="METHOD_NAME" value="userRegisterationPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendorPortalTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ElbablyAcademy.tests.vendorportal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ElbablyAcademy.tests.vendorportal" />
+      <option name="MAIN_CLASS_NAME" value="com.ElbablyAcademy.tests.vendorportal.VendorPortalTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/omar_/IdeaProjects/AutomationTestNG/AutomationTestNG/src/test/resources/test-suites/vendor-portal.xml" />
+        <item itemvalue="TestNG.C:/Users/omar_/IdeaProjects/AutomationTestNG/AutomationTestNG/src/test/resources/test-suites/flight-reservation.xml" />
+        <item itemvalue="TestNG.VendorPortalTest" />
+        <item itemvalue="TestNG.FlightReservationTest" />
+        <item itemvalue="TestNG.FlightReservationTest.userRegisterationPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aeec3bd1-81b0-46c1-98cf-3571b6e5efd3" name="Changes" comment="" />
+      <created>1753025550263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753025550263</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="66709fb3-9545-47ee-bc0d-2c30b166c8e3" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="66709fb3-9545-47ee-bc0d-2c30b166c8e3">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/omar_/IdeaProjects/AutomationTestNG/AutomationTestNG/src/test/resources/test-suites" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ElbablyAcademy/pages/AbstractPage.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
