@@ -4,6 +4,7 @@ import com.ElbablyAcademy.pages.flightreservation.*;
 import com.ElbablyAcademy.tests.AbstractTest;
 import com.ElbablyAcademy.tests.flightreservation.testDataModel.FlightReservationTestData;
 import com.ElbablyAcademy.util.JsonUtils;
+import com.ElbablyAcademy.util.propertiesloader.ConfigManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -23,7 +24,7 @@ public class FlightReservationTest extends AbstractTest {
     @Test
     public void userRegisterationPage(){
         RegisterationPage registerationPage = new RegisterationPage(driver);
-        registerationPage.goToUrl("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html");
+        registerationPage.goToUrl(ConfigManager.getProperty("flightReservation.url"));
         Assert.assertTrue(registerationPage.isAt());
         registerationPage.enterUserDetails(testData.firstName(), testData.lastName());
         registerationPage.enterUserCredentials(testData.email(), testData.password());

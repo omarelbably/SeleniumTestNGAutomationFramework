@@ -5,6 +5,7 @@ import com.ElbablyAcademy.pages.vendorportal.VendorLoginPage;
 import com.ElbablyAcademy.tests.AbstractTest;
 import com.ElbablyAcademy.tests.vendorportal.testDataModel.VendorPortalTestData;
 import com.ElbablyAcademy.util.JsonUtils;
+import com.ElbablyAcademy.util.propertiesloader.ConfigManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -26,7 +27,7 @@ public class VendorPortalTest extends AbstractTest {
     }
     @Test
     public void login(){
-        vendorLoginPage.goToUrl("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html#");
+        vendorLoginPage.goToUrl(ConfigManager.getProperty("vendorPortal.url"));
         Assert.assertTrue(vendorLoginPage.isAt());
         vendorLoginPage.enterUserCredentials(testData.username(), testData.password());
         vendorLoginPage.clickOnLoginBtn();
