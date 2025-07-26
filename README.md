@@ -1,39 +1,37 @@
-# 🚀 Selenium TestNG Automation Framework
+[![GitHub Project](https://img.shields.io/badge/GitHub-Project-blue?logo=github)](https://github.com/omarelbably/SeleniumTestNGAutomationFramework)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Project-blue?logo=github)](https://github.com/omarelbably/SeleniumTestNGAutomationFramework)
+# 🚀 Selenium TestNG Automation Framework
 
 A top-notch, scalable, and extensible Java automation framework powered by **Selenium WebDriver** and **TestNG**!  
 Designed for robust, maintainable, and data-driven web application testing.
-
-![Automation](https://user-images.githubusercontent.com/117082933/234567890-automation-banner.png) <!-- Replace with an actual image if available -->
 
 ---
 
 ## ✨ Features
 
-- **Cross-Browser Support** 🖥️  
-  Run tests easily on Chrome, Firefox, and Edge with custom driver options and profiles.
+- 🖥️ **Cross-Browser Support**  
+  Run tests on Chrome, Firefox, and Edge with custom driver options and profiles.
 
-- **Page Object Model (POM)** 🗂️  
+- 🗂️ **Page Object Model (POM)**  
   Clean separation of test logic and page interactions for maintainable, reusable code.
 
-- **TestNG Integration** 🧪  
+- 🧪 **TestNG Integration**  
   Flexible test configuration, parallel execution, and rich reporting.
 
-- **Data-Driven Testing** 📊  
+- 📊 **Data-Driven Testing**  
   Externalize test data in JSON for dynamic, comprehensive coverage.
 
-- **Powerful Utilities** 🛠️  
+- 🛠️ **Powerful Utilities**  
   Custom actions, checks, waits, and configuration management for robust automation.
 
-- **Sample End-to-End Scenarios** ✈️🏪  
+- ✈️🏪 **Realistic End-to-End Scenarios**  
   Includes real-world flows like Flight Reservation and Vendor Portal workflows.
 
 ---
 
 ## 🗂️ Project Structure
 
-```
+```plaintext
 src
 ├── main
 │   └── java/com/ElbablyAcademy
@@ -46,37 +44,43 @@ src
 
 ---
 
-## 🚦 Getting Started
+## ⚡ Quick Start
 
-### 1. **Clone the Repository**
+### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/omarelbably/SeleniumTestNGAutomationFramework.git
 cd SeleniumTestNGAutomationFramework
 ```
 
-### 2. **Install Dependencies**
-- Ensure you have **Java 17+**, **Maven**, and the appropriate browser drivers installed and on your PATH.
-- Download required dependencies via Maven:
+### 2️⃣ Install Dependencies
+
+- Requires **Java 17+**, **Maven**, and browser drivers (ChromeDriver, GeckoDriver, EdgeDriver) in your `PATH`.
+- Download dependencies:
   ```bash
   mvn clean install
   ```
 
-### 3. **Configure Properties**
-- Set your desired browser and config values in `config.properties` (typically under `src/main/resources`).
+### 3️⃣ Configure Properties
 
-### 4. **Run Tests**
-- To execute all TestNG tests:
+- Set your preferred browser and config values in `config.properties` (usually under `src/main/resources`).
+
+### 4️⃣ Run the Tests
+
+- **All TestNG tests:**
   ```bash
   mvn test
   ```
-- Example for a specific suite or test:
+- **Specific suite:**
   ```bash
   mvn -DsuiteXmlFile=flight-reservation-suite.xml test
   ```
 
 ---
 
-## 🧑‍💻 Example: Flight Reservation Test Flow
+## 🧑‍💻 Example Workflows
+
+### ✈️ Flight Reservation Test Flow
 
 1. **User Registration**  
    Enter user details, credentials, and address, then submit registration.
@@ -91,7 +95,7 @@ cd SeleniumTestNGAutomationFramework
 
 ---
 
-## 🏪 Example: Vendor Portal Workflow
+### 🏪 Vendor Portal Workflow
 
 1. **Vendor Login**  
    Enter vendor credentials and login.
@@ -104,21 +108,67 @@ cd SeleniumTestNGAutomationFramework
 
 ---
 
-## 🏗️ Core Utilities
+## 🏗️ Core Components
+
+### 🧬 Test Base & WebDriver Management
+
+- `AbstractTest.java` manages driver setup/teardown, supports local or Selenium Grid runs, and handles browser selection.
+- Integrates with TestNG listeners for enhanced reporting.
+
+### 🗂️ Page Objects
+
+- Located in `src/main/java/com/ElbablyAcademy/pages/`
+- Each screen/flow is abstracted into a PageObject, following POM for maintainability.
+- Base class: `AbstractPage.java`
+
+### 🛠️ Utilities
 
 - **Actions:** Smart wrappers for clicks, typing, dropdowns, and random selection.
 - **Checks:** Assertions for element visibility and presence.
 - **Waits:** Robust explicit waits for UI stability.
 - **ConfigManager:** Centralized property and environment management.
 
+### ⚙️ Configuration Management
+
+- All test and driver configuration is managed in `config.properties`.
+- `ConfigManager` abstracts property loading and access.
+- Supports toggling between browsers, grid/local, and dynamic environments.
+
 ---
 
-## 🛡️ Best Practices
+## 💡 Best Practices
 
-- Modularize your test data and configs for easy adaptation.
-- Use the POM structure for all new pages and flows.
-- Add new utilities to `/utils` for code reuse.
-- Use TestNG's annotations for setup/teardown and test orchestration.
+- 📦 **Modularize** your test data and configs for easy adaptation.
+- 🗂️ **Use POM** for all new pages and flows.
+- 🔁 **Add new utilities** to `/utils` for code reuse.
+- 🏷️ **Use TestNG annotations** for setup/teardown and flow orchestration.
+- 📊 **Externalize test data** for easier maintenance and richer coverage.
+
+---
+
+## 🧑‍🔬 Extending the Framework
+
+### ➕ Add New Test Flows
+
+1. Create PageObject(s) for new screens in `pages/`.
+2. Write your test class in `tests/`, extending `AbstractTest`.
+3. Model your test data (JSON) and load via utility.
+4. Add new utilities to `utils/` if needed.
+5. Update `config.properties` for new parameters.
+
+### 🌐 Run on Different Browsers/Environments
+
+- Change the `browser` property in `config.properties`.
+- Toggle `grid.enabled` for Grid/Local runs.
+- Set `grid.urlFormat` and `grid.hubHost` as required.
+
+---
+
+## 🛡️ Troubleshooting
+
+- Ensure browser drivers are on your `PATH`.
+- Double-check `config.properties` for typos.
+- Use TestNG reports and logs to debug failures.
 
 ---
 
@@ -132,7 +182,7 @@ cd SeleniumTestNGAutomationFramework
 ## 🤝 Contributing
 
 Pull requests, issues, and suggestions are welcome!  
-Fork this repo, branch out, and submit your improvements.
+Fork, branch, and submit your improvements.
 
 ---
 
